@@ -13,8 +13,6 @@ from scipy.stats import zscore
 from collections import Counter
 from sklearn.model_selection import train_test_split
 
-from utils import *
-
 def def_items(items):
     item2knowledge = {}
     knowledge_set = set()
